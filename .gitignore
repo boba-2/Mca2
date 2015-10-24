@@ -1,0 +1,6 @@
+x64/
+obj/
+*.user
+bin/
+.vs/
+Win32
