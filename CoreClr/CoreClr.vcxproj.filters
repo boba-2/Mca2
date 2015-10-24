@@ -35,6 +35,9 @@
     <ClInclude Include="Measurement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MeasurementRepository.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Infrastructure\AssemblyInfo.cpp">
@@ -44,6 +47,9 @@
       <Filter>Infrastructure</Filter>
     </ClCompile>
     <ClCompile Include="Measurement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeasurementRepository.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
