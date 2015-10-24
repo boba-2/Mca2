@@ -24,5 +24,30 @@ namespace McaApp
         {
             InitializeComponent();
         }
+
+        private void showCurrentValueButton_Click(object sender, RoutedEventArgs e)
+        {
+            valueLabel.Content = Measurement.TakenOn.ToString();
+
+            if (Line.Parent == null)
+                chartCanvas.Children.Add(Line);
+            else
+                Line.X1 += 10;
+        }
+
+        private Mca.Measurement Measurement => _measurement ?? (_measurement = Mca.Repositories.Measurement.getMeasurementByFileName("abc"));
+
+        private Line Line => _line ?? (_line = new Line
+        {
+            X1 = 10,
+            Y1 = 10,
+            X2 = 50,
+            Y2 = 50,
+            Stroke = Brushes.Black,
+            StrokeThickness = 2
+        });
+
+        private Mca.Measurement _measurement;
+        private Line _line;
     }
 }

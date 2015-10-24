@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="showCurrentValueButton" Content="Button" HorizontalAlignment="Left" Margin="58,43,0,0" VerticalAlignment="Top" Width="75" Click="showCurrentValueButton_Click"/>
+        <Label x:Name="valueLabel" Content="Label" HorizontalAlignment="Left" Margin="58,91,0,0" VerticalAlignment="Top" Width="75"/>
+        <Canvas x:Name="chartCanvas" HorizontalAlignment="Left" Height="154" Margin="168,105,0,0" VerticalAlignment="Top" Width="175" Background="#FFF9F9F9" ClipToBounds="True"/>
+
     </Grid>
 </Window>
