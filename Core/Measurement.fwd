@@ -1,0 +1,11 @@
+#pragma once
+
+#include <memory>
+#include "Infrastructure/declspec.h"
+
+namespace Core
+{
+	class CORE_API Measurement;
+
+	typedef std::unique_ptr<Measurement> CORE_API MeasurementPtr;
+}

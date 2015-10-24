@@ -1,0 +1,8 @@
+#pragma once
+
+#include "Infrastructure/declspec.h"
+
+namespace Core
+{
+	class CORE_API MeasurementRepository;
+}

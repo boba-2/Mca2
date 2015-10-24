@@ -7,10 +7,13 @@
     </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd;fwd</Extensions>
     </Filter>
     <Filter Include="Infrastructure">
       <UniqueIdentifier>{60ef8d9e-67d2-422d-a02e-11464b30cfde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support">
+      <UniqueIdentifier>{acccd62e-2828-4c7c-9971-daf5a2c63a5a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -23,6 +26,18 @@
     <ClInclude Include="Infrastructure\targetver.h">
       <Filter>Infrastructure</Filter>
     </ClInclude>
+    <ClInclude Include="Measurement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeasurementRepository.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Support\FileName.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="Support\Date.h">
+      <Filter>Support</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Infrastructure\dllmain.cpp">
@@ -31,5 +46,22 @@
     <ClCompile Include="Infrastructure\stdafx.cpp">
       <Filter>Infrastructure</Filter>
     </ClCompile>
+    <ClCompile Include="Measurement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeasurementRepository.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Support\Date.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Measurement.fwd">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="MeasurementRepository.fwd">
+      <Filter>Header Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
