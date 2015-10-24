@@ -150,6 +150,10 @@
   <ItemGroup>
     <ClInclude Include="Infrastructure\resource.h" />
     <ClInclude Include="Infrastructure\Stdafx.h" />
+    <ClInclude Include="Measurement.h" />
+    <ClInclude Include="Utils\NativeObjectPtrWrapper.h" />
+    <ClInclude Include="Utils\NativeObjectRefWrapper.h" />
+    <ClInclude Include="Utils\RefHolder.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Infrastructure\AssemblyInfo.cpp" />
@@ -159,6 +163,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Measurement.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.vcxproj">
