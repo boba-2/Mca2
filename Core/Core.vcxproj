@@ -154,6 +154,7 @@
     <ClInclude Include="Infrastructure\stdafx.h" />
     <ClInclude Include="Infrastructure\targetver.h" />
     <ClInclude Include="MeasurementRepository.h" />
+    <ClInclude Include="Support\Container.h" />
     <ClInclude Include="Support\Date.h" />
     <ClInclude Include="Measurement.h" />
     <ClInclude Include="Support\FileName.h" />
@@ -180,6 +181,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="MeasurementRepository.cpp" />
+    <ClCompile Include="Support\Container.cpp" />
     <ClCompile Include="Support\Date.cpp" />
     <ClCompile Include="Measurement.cpp" />
   </ItemGroup>

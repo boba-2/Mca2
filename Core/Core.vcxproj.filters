@@ -38,6 +38,9 @@
     <ClInclude Include="Support\Date.h">
       <Filter>Support</Filter>
     </ClInclude>
+    <ClInclude Include="Support\Container.h">
+      <Filter>Support</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Infrastructure\dllmain.cpp">
@@ -53,6 +56,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Support\Date.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Support\Container.cpp">
       <Filter>Support</Filter>
     </ClCompile>
   </ItemGroup>
